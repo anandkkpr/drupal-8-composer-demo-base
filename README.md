@@ -1,3 +1,28 @@
+# Drupal 8 Composer Install Base Project
+
+Quite simply the Drupal Core dev version initial state files that you get when you run composer create-project drupal-composer/drupal-project:8.x-dev. This is for educational purposes only.
+
+To install the project so that it's ready to serve, run:
+
+```
+composer install
+```
+
+CLI command used to create this project:
+
+```
+composer create-project drupal-composer/drupal-project:8.x-dev drupal-8-composer-demo-base --no-interaction --no-install
+```
+
+References:
+
+* https://www.drupal.org/node/2718229
+* https://github.com/drupal-composer/drupal-project
+
+Hope this proves useful to other folks!
+
+----
+
 # Composer template for Drupal projects
 
 [![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
